@@ -7,7 +7,7 @@ import java.nio.charset.CodingErrorAction
 import scala.io.Codec
 object PopularMoviesNicer {
   
-   def parseLine(line: String) = {
+    def parseLine(line: String) = {
       // Split by tab 
       val fields = line.split("\t")
       // Extract  movie ID from all the colummn

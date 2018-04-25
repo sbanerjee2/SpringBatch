@@ -13,6 +13,7 @@ object FriendsByAge {
   def parseLine(line: String) = {
       // Split by commas
       val fields = line.split(",")
+      println("test")
       // Extract the age and numFriends fields, and convert to integers
       val age        =  fields(2).toInt
       val numFriends = fields(3).toInt

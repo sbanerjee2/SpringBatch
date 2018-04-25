@@ -6,7 +6,7 @@ object PopularMovies {
   /** Our main function where the action happens */
   
   
-  def parseLine(line: String) = {
+   def parseLine(line: String) = {
       // Split by tab 
       val fields = line.split("\t")
       // Extract  movie ID from all the colummn

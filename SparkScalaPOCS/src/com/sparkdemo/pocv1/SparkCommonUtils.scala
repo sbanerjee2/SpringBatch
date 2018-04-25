@@ -12,7 +12,7 @@ object SparkCommonUtils {
 	val datadir = "file:///G:/SCALA-SPARK/InputFiles/masteroinput"
 
 	//A name for the spark instance. Can be any string
-	val appName="SparkCommonUtils"
+	 val appName="SparkCommonUtils"
 	//Pointer / URL to the Spark instance - embedded
 	val sparkMasterURL = "local[2]"
 	

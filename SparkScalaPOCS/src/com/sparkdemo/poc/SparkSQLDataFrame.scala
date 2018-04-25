@@ -11,7 +11,7 @@ object SparkSQLDataFrame extends App{
 		
   	val spSession = SparkCommonUtils.spSession
   	val spContext = SparkCommonUtils.spContext
-  	val datadir = SparkCommonUtils.datadir
+  	val   datadir = SparkCommonUtils.datadir
   	
   	/*-------------------------------------------------------------------
 	 * Working with Data Frames

@@ -49,7 +49,7 @@ object DataFrameOperations  extends App{
 // Operations and Useful Functions
 // http://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.sql.functions$
 // spark -scala 
-val Highlowdiff = citidf.select($"High" - $"Low").show()
+ val Highlowdiff = citidf.select($"High" - $"Low").show()
 
 // spark SQL
 // Examples of Operations
